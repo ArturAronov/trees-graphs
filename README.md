@@ -6,14 +6,15 @@ each node can only have 2 children
 ### Different types of trees:
 
 - AVL (rotates tree every time there's violation of the ordering)
-- Red & Black tree
-- M-way tree
+- Red & Black Tree
+- M-Way Tree
   ```
       [10,            20,     30]
       /  \            |        |
     <10   \       <20 & >30    |
        >10 & <20              >30
   ```
+- B-Tree (grows upwards, only tree that has this behavior)
 
 ### Different types of graphs:
 
