@@ -3,7 +3,13 @@ d
 Binary tree:
 each node can only have 2 children
 
-Different types of graphs:
+### Different types of trees:
+
+- AVL (rotates tree every time there's violation of the ordering)
+- Red & Black tree
+- M-way tree
+
+### Different types of graphs:
 
 - Directed, Undirected (one way road etc)
 - Weighted, Unweighted edges (distance between nodes)
@@ -15,14 +21,14 @@ Different types of graphs:
 
 Left side smaller than root node
 Right side larger that root node
-
-                19
+`                19
               /     \
             11       35
            /  \     /
           7   16   23
              /  \
             13   17
+   `
 
     ```
     const BST = {
