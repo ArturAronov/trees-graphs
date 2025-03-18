@@ -8,6 +8,12 @@ each node can only have 2 children
 - AVL (rotates tree every time there's violation of the ordering)
 - Red & Black tree
 - M-way tree
+  ```
+      [10,            20,     30]
+      /  \            |        |
+    <10   \       <20 & >30    |
+       >10 & <20              >30
+  ```
 
 ### Different types of graphs:
 
@@ -33,19 +39,19 @@ Right side larger that root node
 ```
 
 ```
-    const BST = {
-        root: {
-            value: 19
-            left: {
-                value: 11,
-                left: { 7 },
-                right: { 16 },
-            },
-            right: {
-                value: 35,
-                left: { 23 },
-                right: null
-            }
+const BST = {
+    root: {
+        value: 19
+        left: {
+            value: 11,
+            left: { 7 },
+            right: { 16 },
+        },
+        right: {
+            value: 35,
+            left: { 23 },
+            right: null
         }
     }
+}
 ```
