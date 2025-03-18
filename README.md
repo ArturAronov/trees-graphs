@@ -21,14 +21,16 @@ each node can only have 2 children
 
 Left side smaller than root node
 Right side larger that root node
-`                19
+
+    ```
+                19
               /     \
             11       35
            /  \     /
           7   16   23
              /  \
             13   17
-   `
+    ```
 
     ```
     const BST = {
